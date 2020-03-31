@@ -1,6 +1,6 @@
 #!/bin/bash
 # GET ALL USER INPUT
-echo "Username (eg. created username pls)?"
+echo "Username (eg:- give me a name)?"
 read username
 echo "ErpNext Installing...it will take 15 Min"
 sudo apt-get update && sudo apt-get upgrade -y
