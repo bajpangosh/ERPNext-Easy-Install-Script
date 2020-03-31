@@ -2,9 +2,10 @@
 # GET ALL USER INPUT
 echo "Username (eg:- give me a name)?"
 read username
-echo "ErpNext Installing...it will take 15 Min"
+echo "ErpNext Installing... it will take 15 Min"
+sleep 2;
 sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install python3-minimal build-essential python3-setuptools -y
+sudo apt-get install python3-minimal build-essential python3-setuptools pwgen -y
 sudo wget https://raw.githubusercontent.com/frappe/bench/master/playbooks/install.py
 password=`pwgen -s 14 1`
 export LC_ALL=C.UTF-8
