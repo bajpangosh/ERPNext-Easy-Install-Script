@@ -7,6 +7,7 @@ read userpass
 echo "User Creation................."
 sleep 1;
 sudo apt-get -y update && sudo apt-get upgrade
+sudo apt-get -y install python3-setuptools python3-minimal redis-server build-essential whois
 useradd -p `mkpasswd "$userpass"` -d /home/"$username" -m -g users -s /bin/bash "$username"
 sudo usermod -aG sudo $username
 sudo su - $username
