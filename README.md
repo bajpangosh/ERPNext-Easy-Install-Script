@@ -17,11 +17,15 @@ run below script. it'll ask a username just add "erpnextuser"
 wget -qO erpnext run.kloudboy.com/erpnext && sudo bash erpnext
 ```
 
-> In DigitalOcean 1GB Droplet installation time take 15 to 20 minutes, and some Yellow warnings never mind.
+> In DigitalOcean 1GB Droplet installation time take 15 to 20 minutes, and some Yellow warnings never mind. just leave it.
 
 ![](erp-wrngs.png)
 
-## Update the bench by running commands below:
+## Final Bench + Frappe + ERPNext has been successfully installed!
+
+![](erpnext-logo.png)
+
+## Update the Bench by running commands below:
 
 login to user account
 
