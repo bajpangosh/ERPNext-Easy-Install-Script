@@ -23,7 +23,7 @@ wget -qO erpnext run.kloudboy.com/erpnext && sudo bash erpnext
 
 ## Final Bench + Frappe + ERPNext has been successfully installed!
 
-![](erpnext-logo.png)
+![](final-result.png)
 
 ## Update the Bench by running commands below:
 
